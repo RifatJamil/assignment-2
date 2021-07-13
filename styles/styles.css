@@ -5,21 +5,40 @@
 /* common and utilities --------------------------*/
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 0;
+    background-color: #FFFFFF;
+    ;
+
 }
 
+.button{
+    padding: 10px 24px;
+    background-color: #E02C6D
+    ;
+    color: white;
+    text-decoration: none;
+}
 /* Top part starts here--------- */
 .top-part{
     background-color: #2D25A0;
-    display: flex;
-    justify-content: center;
+    padding-top: 135px;
+    padding-bottom: 86px;
+
 }
 /* top banner--------------- */
 .top-banner{
     display: flex;
-    margin-top: 67px;
+    justify-content: center;
     margin-bottom: 86px;
-
+    margin-left: 156px;
+    margin-right: 141px;  
 }
+
+.banner-text{
+    width: 485px;
+    margin-right: 102px;
+}
+
 .banner-text h1{
     font-weight: 700;
     font-size: 64px;
@@ -27,9 +46,51 @@ body{
 
 }
 .banner-image{
-    padding-left: 102px;
+    margin-left: 102px;
 }
 .top-banner .banner-image img{
     width: 556px;
-    height: 438px;
+}
+
+
+/* middle banner starts here --------------------------------*/
+.middle-part{
+    display: flex;
+    justify-content: center;
+    margin-left: 180px;
+    margin-right: 210px;
+    margin-top: 70px;
+}
+.blogs{
+    display: grid;
+    grid-template-columns: repeat(3, 350px);
+    
+    row-gap: 27px;
+}
+.blog{
+    display: flex;
+    flex-direction: column;
+    width: 330px;
+    background-color: #FFFFFF;
+    box-shadow:  0px 0px 40px rgba(0, 0, 0, 0.15);
+
+    
+}
+.blog-text{
+    margin-left: 15px;
+    margin-right: 15px;
+    text-align: left;
+}
+.blogs .blog-image img{
+    width: 300px;
+    height: 256px;
+    padding: 15px;
+    
+}
+
+.blog-text h3{
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 40px;
+    margin: 0;
 }
