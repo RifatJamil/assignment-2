@@ -113,3 +113,22 @@ body{
 .bottom-banner .bottom-image img{
     width: 567px;
 }
+/* footer start here --------------- */
+footer{
+    text-align: center;
+    margin-top: 158px;
+    margin-bottom: 63px;
+    
+}
+.logo img{
+    width: 484px;
+}
+.icon{
+    color: gray;
+    font-size: 32px;
+    margin-right: 14px;
+    text-align: center;
+}
+.copyright{
+    font-size: 18px;
+}
