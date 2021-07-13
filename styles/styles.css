@@ -92,3 +92,24 @@ body{
     line-height: 40px;
     margin: 0;
 }
+/* bottom banner starts here -------- */
+.bottom-banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 165px;
+}
+.bottom-text{
+    width: 469px;
+    margin-right: 66px;
+    
+}
+.bottom-text h2{
+    font-size: 48px;
+    line-height: 60px;
+    font-weight: 700;
+    margin: 0;
+}
+.bottom-banner .bottom-image img{
+    width: 567px;
+}
