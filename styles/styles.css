@@ -1,0 +1,35 @@
+/* font family-----
+------------------------ */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+/* common and utilities --------------------------*/
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Top part starts here--------- */
+.top-part{
+    background-color: #2D25A0;
+    display: flex;
+    justify-content: center;
+}
+/* top banner--------------- */
+.top-banner{
+    display: flex;
+    margin-top: 67px;
+    margin-bottom: 86px;
+
+}
+.banner-text h1{
+    font-weight: 700;
+    font-size: 64px;
+    color: white;
+
+}
+.banner-image{
+    padding-left: 102px;
+}
+.top-banner .banner-image img{
+    width: 556px;
+    height: 438px;
+}
