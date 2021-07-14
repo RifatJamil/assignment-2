@@ -159,6 +159,7 @@ footer{
     }
 
     /* main style starts here */
+    /* top part ----------- */
    .top-part{
        background-color: #2D25A0;
        padding-top: 112px;
@@ -185,6 +186,7 @@ footer{
    .top-banner .banner-image img{
        width: 100%;
    }
+   /* middle part ------------------------ */
    .middle-part{
        margin: 0;
        margin-top: 47px;
@@ -194,6 +196,7 @@ footer{
        grid-template-columns: repeat(1, 1fr);
        row-gap: 24px;
    }
+   /* bottom part ----------------------- */
    .bottom-banner{
     display: block;
     margin-top: 60px;
@@ -208,6 +211,7 @@ footer{
     .bottom-banner .bottom-image img{
         width: 100%;
     }
+    /* footer --------------------------------- */
     footer{
         margin-left: 18px;
         margin-right: 18px;
