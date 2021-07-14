@@ -56,7 +56,7 @@ body{
  ;
 }
 .banner-image:hover{
-    transform: scale(1.3);
+    transform: scale(1.3) rotate(360deg);
 }
 
 
@@ -143,15 +143,20 @@ footer{
     margin-right: 14px;
     
 }
+.icon a{
+    text-decoration: none;
+    color: gray;
+}
 .copyright{
     font-size: 18px;
 }
 /* media queries------------------ */
 /* mobile device------------------ */
 @media only screen and (max-width:688px){
- footer{
-       display: none;
-   }
+    /* common and utilities */
+     .button-prop:hover{
+        transform: scale(1.1);
+    }
 
     /* main style starts here */
    .top-part{
@@ -165,7 +170,7 @@ footer{
        
    }
    .banner-text{
-       width: 274px;
+       width: 100%;
 
    }
    .banner-text h1{
@@ -174,11 +179,11 @@ footer{
        line-height: 50px;
    }
    .banner-image{  
-    margin-left: 0px;
+    margin-left: 100px;
     margin-top: 50px;
    }
    .top-banner .banner-image img{
-       width: 329px;
+       width: 100%;
    }
    .middle-part{
        margin: 0;
@@ -190,12 +195,33 @@ footer{
        row-gap: 24px;
    }
    .bottom-banner{
-    display: block;}
+    display: block;
+    margin-top: 60px;
+    margin-left: 16px;
+    margin-right: 16px;
+    }
     .bottom-text{
-        width: 90%;
+        width: 100%;
         text-align: justify;
+        margin-bottom: 20px;
     }
     .bottom-banner .bottom-image img{
-        width: 328px;
+        width: 100%;
+    }
+    footer{
+        margin-left: 18px;
+        margin-right: 18px;
+        margin-top: 43px;
+    }
+    .logo img{
+        width: 100%;
+    }
+    .icon{
+        width: 100%;
+        font-size: 32px;
+    }
+    .copyright{
+        width: 100%;
+        font-size: 18px;
     }
 }
