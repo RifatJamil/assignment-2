@@ -146,3 +146,56 @@ footer{
 .copyright{
     font-size: 18px;
 }
+/* media queries------------------ */
+/* mobile device------------------ */
+@media only screen and (max-width:688px){
+ footer{
+       display: none;
+   }
+
+    /* main style starts here */
+   .top-part{
+       background-color: #2D25A0;
+       padding-top: 112px;
+   }
+   .top-banner{
+       display: flex;
+       flex-direction: column;
+       margin-left: 16px;
+       
+   }
+   .banner-text{
+       width: 274px;
+
+   }
+   .banner-text h1{
+       font-size: 36px;
+       font-weight: 700;
+       line-height: 50px;
+   }
+   .banner-image{  
+    margin-left: 0px;
+    margin-top: 50px;
+   }
+   .top-banner .banner-image img{
+       width: 329px;
+   }
+   .middle-part{
+       margin: 0;
+       margin-top: 47px;
+   }
+   .blogs{
+       display: grid;
+       grid-template-columns: repeat(1, 1fr);
+       row-gap: 24px;
+   }
+   .bottom-banner{
+    display: block;}
+    .bottom-text{
+        width: 90%;
+        text-align: justify;
+    }
+    .bottom-banner .bottom-image img{
+        width: 328px;
+    }
+}
